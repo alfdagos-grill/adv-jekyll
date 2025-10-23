@@ -1,7 +1,8 @@
 title: AbruzzoDivino
 description: A website dedicated to the wines of Abruzzo.
 baseurl: ""
-url: "https://alfdagos-grill.github.io/adv-jekyll"
+baseurl: "/adv-grill" # the subpath of your site
+url: "https://alfdagos-grill.github.io" # your GitHub Pages URL
 theme: minima
 
 plugins:
