@@ -1,0 +1,32 @@
+title: AbruzzoDivino
+description: A website dedicated to the wines of Abruzzo.
+baseurl: ""
+url: "https://yourusername.github.io/abruzzo-divino"
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
